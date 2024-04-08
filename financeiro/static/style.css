@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #090262;
+}
+
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.logo img{
+    width: 500px;
+    margin-top: 100px
+}
+
+.textoap{
+    color:white;
+}
+
+.btt{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+    margin: 40px;
+    margin-left: 300px;
+}
+
+.butt{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.btt button, .butt button{
+    background-color: #50D33B;
+    border: 50px;
+    border-radius: 3px;
+    width: 140px;
+    height: 25px;
+    font-weight: 600;
+}
+
+
+
+.logo{
+    margin-left:20px
+}
+
+.tudo{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.apresentacao{
+    margin-left: 100px;
+    margin-top: 165px;
+}
+
+.textoap text{
+    fontSize: 10px;
+}
+.inp{
+    display: grid;
+    align-content: center;
+    margin-left: 250px;
+    gap: 20px;
+
+}
+
+.informacoes{
+    margin-top: 188px;
+}
+
+.inputt{
+    width: 300px;
+    font-weight: 600;
+}
